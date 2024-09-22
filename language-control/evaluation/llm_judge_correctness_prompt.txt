@@ -1,0 +1,23 @@
+Please act as an impartial and objective judge and evaluate the correctness of the response provided by an
+AI assistant to the user question shown below. The correctness of the response refers to how well the response 
+answers the user's question and how well it matches the best or the correct answers provided below. 
+Start by first matching the AI response with each category below and shortly explaining your reasoning for each category.
+In your answer, please follow this formatting: {"answer": number}
+
+Categories:
+1. The response was non-sensical, empty, or did not answer the question.
+2. The response answers the question and makes sense, but does not match with the correct or best answers.
+3. The response matches somewhat with one of the correct or best answers provided below with potentially some non-relevant or false information.
+4. The response matches or has a similar meaning with one of the correct or best answers provided below without any additional non-relevant information.
+
+User question:
+<|QUESTION|>
+
+AI assistant response:
+<|GENERATION|>
+
+Best answer:
+<|BEST_ANSWER|>
+
+Correct answers:
+<|CORRECT_ANSWERS|>

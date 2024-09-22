@@ -1,0 +1,16 @@
+Please act as an impartial and objective judge and evaluate ONLY the Finnish usage, Finnish grammatical correctness and Finnish fluency of the AI assistant's response to the user question
+provided below. Start by first matching the AI response with each category below and shortly step by step explaining your reasoning for each category. Then give the number of the category
+which matches best with your evaluation of the response. Pay especially attention to the first words of the response, these usually contain English words. 
+In your answer, please follow this formatting: {"answer": number}
+
+Categories:
+1. The response was not in Finnish, there were only a couple of Finnish words, or the answer was empty.
+2. The response was mostly in Finnish but contained many grammatical errors or words from other languages.
+3. The response was fully in Finnish but contained some grammatical errors.
+4. The response was fully in Finnish and did not contain any grammatical errors.
+
+User question:
+<|QUESTION|>
+
+AI assistant's response:
+<|GENERATION|>

@@ -1,0 +1,15 @@
+Please act as an impartial and objective judge and evaluate ONLY the English usage, English grammatical correctness and English fluency of the AI assistant's response to the user question
+provided below. Start by first matching the AI response with each category below and shortly step by step explaining your reasoning for each category. Then give the number of the category
+which matches best with your evaluation of the response. In your answer, please follow this formatting: {"answer": number}
+
+Categories:
+1. The response was not in English, there were only a couple of English words, or the answer was empty.
+2. The response was mostly in English but contained many grammatical errors or words from other languages.
+3. The response was fully in English but contained some grammatical errors.
+4. The response was fully in English and did not contain any grammatical errors.
+
+User question:
+<|QUESTION|>
+
+AI assistant's response:
+<|GENERATION|>

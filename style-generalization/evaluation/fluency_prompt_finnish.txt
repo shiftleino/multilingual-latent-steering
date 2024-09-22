@@ -1,0 +1,15 @@
+Please act as an impartial and objective judge and evaluate ONLY the language of the AI assistant's response to the user question
+provided below. From the two categories shown below, you should select the most fitting focusing only on the aspects of the response 
+mentioned in the categories. Do NOT evaluate the correctness or the coherence of the response. Evaluate only the language. Begin your evaluation by assessing whether the response fits to each of the two categories and provide a short explanation. Be as objective as possible. After providing your explanation, 
+output your final verdict by strictly following this format: "[[1]]" if category 1 matches better, and "[[2]]" if category 2 matches 
+better.
+
+Categories:
+1. The response is not completely in Finnish or is in Finnish but is syntactically nonsensical (e.g., the response repeats one word tens of times).
+2. The response was fully in Finnish excluding some individual English words that could be attributed to a more informal style such as proper nouns or exclamations. The response can contain some repetitions, grammatically incorrect structures, and unnecessary phrases typical to informal style.
+
+User question:
+<|QUESTION|>
+
+AI assistant's response:
+<|GENERATION|>
