@@ -7,6 +7,9 @@ import torch
 def add_forward_hooks(forward_hooks: List[Tuple[torch.nn.Module, Callable]]):
   """Context manager for adding forward hooks to a list of modules.
 
+  Approach to add PyTorch hooks to each layer inspired by the approach taken in 
+  https://github.com/andyrdt/refusal_direction ([3] in the thesis).
+
   Args:
       forward_hooks (List[Tuple[torch.nn.Module, Callable]]): List of modules where the corresponding hooks are added.
   """
