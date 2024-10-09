@@ -5,7 +5,7 @@ This repository contains the source code for creating steering vectors for contr
 ## Reproducing language control results
 1. Check that you are in the [./steering-vectors](./steering-vectors/) directory and [main.py](./steering-vectors/main.py) is in the root.
 2. Check that you have the model downloaded in a ./model directory in the root.
-3. Run the [create_language_vector.sh](./steering-vectors/create_language_vector.sh) script to produce the steering vector for controlling the language. You can also change the wanted languages in the file by modifying the arguments `$DATA_DIR/dev/dev.fin_Latn` `$DATA_DIR/dev/dev.eng_Latn` accrodingly.
+3. Run the [create_language_vector.sh](./steering-vectors/create_language_vector.sh) script to produce the steering vector for controlling the language. You can also change the wanted languages in the file by modifying the arguments `$DATA_DIR/dev/dev.fin_Latn` `$DATA_DIR/dev/dev.eng_Latn` accordingly.
 4. Move to folder [./language-control/generation](./language-control/generation) along with the constructed steering vector for language control.
 5. Fill in the [./language-control/generation/run.sh](./language-control/generation/run.sh) file with desired hyperparameter settings. In the main experiment of the thesis, we use the following configuration:
 ```console
@@ -25,7 +25,7 @@ RESULT_FOLDER_PATH="dir-path-to-store-the-results"
 FLUENCY_PROMPT_PATH="./llm_judge_finnish_prompt.txt"
 CORRECTNESS_PROMPT_PATH=./llm_judge_correctness_prompt.txt""
 MODEL_NAME="mistral-large-2407"
-LANGUAGE="en" # fi or en
+LANGUAGE="fi" # fi or en
 FINNISH_QUESTIONS_PATH="./finnish_questions_full.json"
 ```
 
