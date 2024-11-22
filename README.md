@@ -83,8 +83,6 @@ So, if you think someone might be a witch, you better watch out! 👀 But don't 
   author    = {Julius Leino},
   title     = {Controlling the Text Generation of a Large Language Model in Multilingual Setting using Latent Space Steering},
   school    = {Aalto University},
-  year      = {2024},
-  url       = {https://aaltodoc.aalto.fi/items/ee5e57fa-8b12-4b08-9e4a-ece43068a9e1},
-  note      = {URN: urn:nbn:fi:aalto-202411217371}
+  year      = {2024}
 }
 ```
